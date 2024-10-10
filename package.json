@@ -1,0 +1,26 @@
+{
+    "name": "whoamifonts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "nodemon src/index.ts",
+        "build": "rimraf dist && tsc && shx cp -R src/public/ dist/ && shx cp -R src/assets/ dist/",
+        "start": "node dist/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.21.1"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.7.5",
+        "nodemon": "^3.1.7",
+        "rimraf": "^6.0.1",
+        "shx": "^0.3.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.3"
+    }
+}
