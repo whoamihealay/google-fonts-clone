@@ -7,7 +7,7 @@ const port = 3000;
 
 const router = new Router();
 
-router.get("/", (ctx) => {
+router.get("/css", (ctx) => {
     const family = ctx.request.url.searchParams.get("family");
     if (!family) {
         ctx.response.status = 400;
