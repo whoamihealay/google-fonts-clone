@@ -1,0 +1,41 @@
+[
+    {
+        "family": "Open Sans",
+        "variations": [
+            {
+                "weight": "100",
+                "style": "normal",
+                "src": [
+                    {
+                        "url": "OpenSans-Light-91dc6a5.woff2",
+                        "format": "woff2"
+                    }
+                ]
+            },
+            {
+                "weight": "400",
+                "style": "normal",
+                "src": [
+                    {
+                        "url": "OpenSans-Regular-91dc6a5.woff2",
+                        "format": "woff2"
+                    },
+                    {
+                        "url": "OpenSans-Regular-91dc6a5.woff",
+                        "format": "woff"
+                    }
+                ]
+            },
+            {
+                "weight": "400",
+                "style": "italic",
+                "src": [
+                    {
+                        "url": "OpenSans-Regular-Italic-91dc6a5.woff2",
+                        "format": "woff2"
+                    }
+                ]
+            }
+        ]
+    }
+]
